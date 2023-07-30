@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------- Title Stop Watch-------------------- -->
+    <title>Stop Watch</title>
+
+    <!----------------------------Google Font---------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Mono:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!------------------------------- Favicon Stop Watch---------------------------------->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon_stopWatch/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon_stopWatch/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon_stopWatch/favicon-16x16.png">
+    <link rel="manifest" href="Favicon_stopWatch/site.webmanifest">
+    <link rel="mask-icon" href="Favicon_stopWatch/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!----------------------------------------- Bootstrap CSS ------------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!----------------------------------------Stylesheet----------------------------------->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!------------------------------------ Heading Stop Watch -------------------------------->
+            <div class="row ">
+                <div class="col-12">
+                    <h1 class="text-center text-primary mt-4 mb-5">Stop Watch</h1>
+                </div>
+            </div>
+            <!-- ---------------------    Div Center------------- -->
+            <div class="center shadow rounded">
+                    <!-- ------------   Timer (Hour, Minutes, Seconds, MilliSecond) -------------------->
+                    <div class="row   justify-content-evenly mt-5 mb-2 ">
+                        <div class="col-md-8 timerDisplay bg-white shadow rounded p-3">
+                            <h1 class="text-center"> 00 : 00 : 00 : 000 </h1>
+                        </div>
+                    </div>
+
+                   <!--  ------------------ Pause, Start, Reset----------------------------------------->
+                    <div class="row justify-content-evenly  mb-5 ">
+                        <div class="col-8 buttons  rounded py-2">
+                            <button class="  " id="pauseTimer">Pause</button>
+                            <button class=" " id="startTimer">Start</button>
+                            <button class=" " id="resetTimer">Reset</button>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+  
+
+
+    <!------------------------- Script js------------------------ -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
